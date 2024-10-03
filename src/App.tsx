@@ -3,6 +3,8 @@ import axios from "axios";
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import ErrorMessage from "./components/ErrorMessage";
+import './App.css'
+import './index.css'
 
 interface WeatherData {
   name: string;
